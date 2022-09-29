@@ -44,5 +44,14 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
-}
 
+    // method that prints information about your age
+    public void age(int yourAge) {
+        System.out.println("My age is " + yourAge);
+    }
+
+    // method that subtracts and returns the difference of two numbers
+    public int subtractNumbers(int num1, int num2) { return num1 - num2; }
+
+
+}
